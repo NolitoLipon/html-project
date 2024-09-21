@@ -1,0 +1,38 @@
+p{
+   color: #EAD8B1; 
+   background-color: #001F3F; 
+   font-size: 20px;
+   font-family: 'Times New Roman';
+
+  }
+   /*below are the list of 3 important headings*/
+ h1{
+    color: #EAD8B1;
+    text-align: center;
+    background-color: #6A9AB0;
+    font-family: 'Arial';
+    font-weight: 900;
+  
+   }  h2{
+   color: #EAD8B1;
+   text-align: center;
+   background-color: #6A9AB0;
+   font-weight: 700;
+   
+ }
+ h3{
+   color: #6A9AB0;
+   background-color: #3A6D8C;
+   font-weight: 500;
+   
+ }
+ /*below are the list of ol & ul*/
+ ol{
+   color: mediumblue;
+   background-color: darkgray;
+ }
+ul{
+   color: mediumblue;
+   background-color: darkgray;
+}
+
