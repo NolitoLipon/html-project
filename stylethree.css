@@ -1,0 +1,46 @@
+/*text*/
+p{
+    color: #629584; 
+    background-color: #243642; 
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+  p:hover{
+    color: lawngreen;
+  }
+    /*below are the list of 3 headings*/
+  h1, h2, h3, h4{
+    color: #E2F1E7;
+    background-color: #387478;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+   h1:hover{
+    color: aqua;
+}
+   h2:hover{
+      color: aqua;
+}
+  h3:hover{
+    color: aqua;}
+  /*below are the list of ol & ul*/
+  ol, ul{
+    color: mediumblue;
+}
+   *{
+     background-color: black;
+}
+ /*images*/
+    img{
+      width: 600px;
+      height: 400px;
+      border: 10px solid darkmagenta;
+      width: 50;
+      margin-left: 25%;
+      margin-top: 10px;
+}
+ div{
+  margin: 0px;
+}
