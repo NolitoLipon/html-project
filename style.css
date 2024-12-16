@@ -1,0 +1,325 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f0f4f8; /* Light text color */
+    line-height: 1.6;
+    background-color: #1a2b3c; /* Dark blue background for the body */
+}
+
+/* Global Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and Navigation Styling */
+header {
+    background-color: #1e3a5b; /* Dark blue header with a slight gradient */
+    padding: 40px 0;
+    color: #f0f4f8;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header img {
+    width: 100%; /* Ensures images fill their container width */
+    height: 300px; /* Sets a fixed height for all images */
+    object-fit: cover; /* Ensures the images maintain their aspect ratio while filling the container */
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+header h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f4f8;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #304f6e; /* Slightly lighter dark blue for nav links */
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d91656; /* Soft accent color for hover */
+    transform: translateY(-3px); /* Adds slight elevation on hover */
+}
+
+/* Section Styling for Content */
+section {
+    padding: 60px 30px;
+    margin: 40px 0;
+    background-color: #2e3b4e; /* Darker section background */
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+section h2, section h3 {
+    text-align: center;
+    color: #f0f4f8; /* Light text for headings */
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 18px;
+    text-align: justify;
+    color: #e4f1f7; /* Lighter text color for paragraphs */
+    line-height: 1.8;
+    padding: 15px;
+}
+
+section ul {
+    list-style: square inside;
+    background-color: #3c4f6d; /* Soft contrasting background for list items */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+section ul li {
+    font-size: 16px;
+    color: #e4f1f7; /* Light text color for list items */
+    padding: 5px 0;
+}
+
+section ul li:hover {
+    color: #d91656; /* Accent color on hover for list items */
+    cursor: pointer;
+}
+
+/* Image Styling */
+section img {
+    width: 100%; /* Ensures images fill their container width */
+    height: 300px; /* Sets a fixed height for all images */
+    object-fit: cover; /* Ensures the images maintain their aspect ratio while filling the container */
+    border-radius: 12px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    border: 4px solid #d91656; /* Red border on hover */
+}
+
+/* Button Styling */
+.about-link, .next-page-link {
+    display: inline-block;
+    background-color: #304f6e; /* Dark blue background for buttons */
+    color: #f0f4f8;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.about-link:hover, .next-page-link:hover {
+    background-color: #d91656;
+    transform: translateY(-3px);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e3a5b;
+    color: #f0f4f8;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific Page Styling */
+
+/* Index Page */
+.index-page {
+    background-color: #1e2a3a; /* Dark blue background for the page */
+}
+
+.index-page header {
+    background-color: #304f6e;
+}
+
+.index-page section {
+    background-color: #2e3b4e;
+}
+
+.index-page section h2 {
+    color: #f0f4f8;
+}
+
+.index-page section ul {
+    background-color: #3c4f6d;
+}
+
+/* About Page */
+.about-page {
+    background-color: #2f3c4f; /* Darker background for about page */
+}
+
+.about-page header {
+    background-color: #1e3a5b;
+}
+
+.about-page section {
+    background-color: #374a60;
+}
+
+.about-page section h2 {
+    color: #f0f4f8;
+}
+
+.about-page section ul {
+    background-color: #4e627e;
+}
+
+/* Boracay Page */
+.boracay-page {
+    background-color: #2f3c4f; /* Dark background */
+}
+
+.boracay-page header {
+    background-color: #1e3a5b;
+}
+
+.boracay-page section {
+    background-color: #3b4f68;
+}
+
+.boracay-page section h2 {
+    color: #f0f4f8;
+}
+
+.boracay-page section ul {
+    background-color: #4e627e;
+}
+
+/* Palawan Page */
+.palawan-page {
+    background-color: #1e2a3a; /* Dark blue background */
+}
+
+.palawan-page header {
+    background-color: #304f6e;
+}
+
+.palawan-page section {
+    background-color: #2e3b4e;
+}
+
+.palawan-page section h2 {
+    color: #f0f4f8;
+}
+
+.palawan-page section ul {
+    background-color: #3c4f6d;
+}
+
+/* Cebu Page */
+.cebu-page {
+    background-color: #2f3c4f; /* Dark background */
+}
+
+.cebu-page header {
+    background-color: #1e3a5b;
+}
+
+.cebu-page section {
+    background-color: #374a60;
+}
+
+.cebu-page section h2 {
+    color: #f0f4f8;
+}
+
+.cebu-page section ul {
+    background-color: #4e627e;
+}
+
+/* Hover Effects for Paragraphs */
+section p:hover, section ul li:hover {
+    color: #d91656;
+    cursor: pointer;
+}
+
+/* Social Media Section Styling */
+.social-media-section {
+    background-color: #1e3a5b;
+    padding: 40px;
+    text-align: center;
+}
+
+.social-media-section a {
+    color: #f0f4f8;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+.social-media-section a:hover {
+    color: #d91656;
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .about-link, .next-page-link {
+        padding: 12px 25px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+* {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+
